@@ -6,3 +6,10 @@
     border: 2px solid black;
     border-radius: 5px;
 }
+
+.container__cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}

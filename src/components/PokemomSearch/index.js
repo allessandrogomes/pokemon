@@ -14,7 +14,7 @@ const PokemomSearch = () => {
 
     const getPokemons = () => {
         var endpoints = [];
-        for ( var i=1; i<50; i++) {
+        for (var i = 1; i < 50; i++) {
             endpoints.push(`https://pokeapi.co/api/v2/pokemon/${i}/`);
         }
         console.log(endpoints);
@@ -23,7 +23,9 @@ const PokemomSearch = () => {
     return (
         <div className="container__content">
             <Search />
-            {pokemons.map((pokemon, key) => <Card name={pokemon.data.name} image={pokemon.data.sprites.front_default} key={key}/>)}
+            <div className="container__cards">
+                {pokemons.map((pokemon, key) => <Card name={pokemon.data.name} image={pokemon.data.sprites.front_default} key={key} />)}
+            </div>
         </div>
     )
 }
