@@ -36,7 +36,7 @@ const PokemomSearch = () => {
         <div className="container__content">
             <Search pokemonFilter={pokemonFilter} />
             <div className="container__cards">
-                {pokemons.map((pokemon, key) => <Card name={pokemon.data.name} image={pokemon.data.sprites.front_default} key={key} />)}
+                {pokemons.map((pokemon, key) => <Card name={pokemon.data.name} image={pokemon.data.sprites.front_default} types={pokemon.data.types} stats={pokemon.data.stats} key={key} />)}
             </div>
         </div>
     )
