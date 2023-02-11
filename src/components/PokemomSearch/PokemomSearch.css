@@ -1,0 +1,8 @@
+.container__content {
+    width: 1000px;
+    min-height: 500px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 5px;
+}

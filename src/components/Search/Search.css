@@ -1,0 +1,22 @@
+.container__search {
+    width: 400px;
+    height: 80px;
+    margin: 30px auto;
+    background-color: rgb(153, 153, 153);
+    text-align: center;
+    border-radius: 5px ;
+    border: 2px solid black;
+}
+
+.container__search h2 {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px;
+    margin: 0;
+}
+
+.container__search input {
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+}
