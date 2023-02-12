@@ -5,6 +5,10 @@
     margin: 0 auto;
     border: 2px solid black;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .container__cards {

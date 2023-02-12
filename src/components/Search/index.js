@@ -1,11 +1,12 @@
 import './Search.css'
 
-const Search = ({ pokemonFilter }) => {
+const Search = ({ handleSubmit, pokemonName, setPokemonName }) => {
     return (
-        <div className='container__search'>
+        <form className='container__search' onSubmit={handleSubmit}>
             <h2>Search for your Pokémom</h2>
-            <input onChange={(e)=>pokemonFilter(e.target.value)} placeholder='Pokémon name'></input>
-        </div>
+            <input type={"text"} value={pokemonName} onChange={(e) => setPokemonName(e.target.value)} placeholder='Pokémon name'></input>
+            <input className='input-submit' type="submit" value="Submit" />
+        </form>
     )
 }
 

@@ -1,17 +1,12 @@
-import axios from "axios";
-import { useState } from "react";
-import { useEffect } from "react";
-import Card from "./components/Card";
 import Header from "./components/Header";
-import PokemomSearch from "./components/PokemomSearch";
-
+import PokemonSearch from "./components/PokemonSearch";
 
 function App() {
 
   return (
     <div className="App">
       <Header />
-      <PokemomSearch />
+      <PokemonSearch />
     </div>
   );
 }
