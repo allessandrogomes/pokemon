@@ -2,26 +2,29 @@
     width: 400px;
     height: 80px;
     margin: 30px auto;
-    background-color: rgb(153, 153, 153);
+    background-color: rgb(235 235 235);
     text-align: center;
     border-radius: 5px;
+    box-shadow: 0 3px 10px 4px black;
     border: 2px solid black;
 }
 
 .container__search h2 {
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 700;
     padding: 10px;
     margin: 0;
 }
 
 .container__search input {
     border-radius: 5px;
-    border: none;
     margin: 5px;
     text-align: center;
+    border: 2px solid black;
 }
 
 .input-submit {
     cursor: pointer;
+    background-color: rgb(255, 255, 100);
+    font-weight: 700;
 }

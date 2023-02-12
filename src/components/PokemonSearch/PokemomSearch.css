@@ -1,7 +1,7 @@
 .container__content {
-    width: 1000px;
+    width: 50%;
     min-height: 500px;
-    background-color: aliceblue;
+    background-color: rgb(24, 24, 24);
     margin: 0 auto;
     border: 2px solid black;
     border-radius: 5px;

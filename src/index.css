@@ -5,7 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgba(34, 247, 247, 0.678);
+  /* background-color: rgba(34, 247, 247, 0.678); */
+  background: url(../public/images/bg-pokemom.jpg);
+  background-size: contain;
 }
 
 code {
