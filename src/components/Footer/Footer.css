@@ -1,0 +1,31 @@
+.footer {
+    background-color: rgb(24, 24, 24);
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer h4 {
+    color: whitesmoke;
+    font-weight: 200;
+    font-family: 'Poppins';
+    text-align: center;
+    margin: 0;
+    padding: 40px 0 20px 0;
+}
+
+.footer h5 {
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color:brown;
+}
+
+.footer div {
+    display: flex;
+    width: 100px;
+    justify-content: space-around;
+    margin: 0 auto;
+} 

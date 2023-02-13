@@ -41,3 +41,22 @@
     margin: 0;
     text-transform: capitalize;
 }
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 90%;
+        min-height: 150px;
+        height: auto;
+        flex-direction: column;
+    }
+    .info-pokemom p{
+        font-size: 10px;
+    }
+    .container__img-pokemom h3 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    
+}

@@ -7,7 +7,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   /* background-color: rgba(34, 247, 247, 0.678); */
   background: url(../public/images/bg-pokemom.jpg);
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #7fac71;
 }
 
 code {
