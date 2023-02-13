@@ -15,6 +15,7 @@ const Card = ({ name, image, stats }) => {
                 <p>SPECIAL DEFENSE: {stats && stats[4] && stats[4].base_stat}</p>
                 <p>SPEED: {stats && stats[5] && stats[5].base_stat}</p>
             </div>
+            <div></div>
         </div>
     )
 }
